@@ -1,0 +1,13 @@
+coverage:
+  precision: 0
+  round: up
+  range: 60..99
+  ignore:
+    - "adapter/authtest/"
+    - "adapter/integrationtest/"
+    - "bin/"
+    - "install/"
+    - "template/"
+    - "apigee-istio/"
+    - "context/"
+    - "auth-proxy/"
